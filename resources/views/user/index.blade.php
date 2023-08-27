@@ -61,7 +61,7 @@
                             }).showToast();
                         } else {
                             Toastify({
-                                text: "Failed to added a user",
+                                text: "Failed to add a user",
                                 className: "info",
                                 style: {
                                     background: "#ef4444",
