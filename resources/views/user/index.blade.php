@@ -49,6 +49,10 @@
                         $("#errorEmail").html("");
 
                         if(response.status == 200) {
+                            // reset value of inputs
+                            $("input[name=fullname]").val("");
+                            $("input[name=contactNumber]").val("");
+                            $("input[name=email]").val("");
                             Toastify({
                                 text: "Successfully added a user",
                                 className: "info",
